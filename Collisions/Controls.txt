@@ -1,0 +1,24 @@
+Controls
+
+Note: Several things must be #defined to be enabled. These can be found in "sphere_JK_OO_particle.h" which 
+include such things as #define DRAW_POLY_DEBUG, #define GRID, #define HGRID. Not all of these are functioning and
+try not to use things that would obviously clash such as GRID and HGRID at the same time.	
+
+Input	|	Output
+------------------------------------------------------------------------------------------------------
+L-Mouse	| (HOLD) Picks up a particle which can be dragged and thrown 
+R-Mouse	| (HOLD) Hold and drag mouse to give a particle an push along that vector
+l	| Creates a line: Hold down, click down L-Mouse for start, drag and release for end
+n	| Creates a new random circle at the mouse location
+b	| Creates a new random convex polygon at the mouse location
+= (+)	| Makes target larger
+-	| Makes target smaller
+.	| Makes target (polygon) spin clockwise
+,	| Makes target (polygon) spin anti-clockwise
+]	| Increases the static grid size by 1
+[	| Decreases the static grid size by 1
+t	| Decreases the number of times the hierarchical grid can be divided
+y	| Increases the number of times the hierarchical grid can be divided
+g	| Decreases the number of circles required to warrent a hierarchical grid space to be split
+h	| Increases the number of circles required to warrent a hierarchical grid space to be split
+	
