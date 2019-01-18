@@ -1,0 +1,24 @@
+﻿  app.cpp
+..\src\app.cpp(2): fatal error C1083: Cannot open include file: 'gl/glut.h': No such file or directory
+  Circle.cpp
+..\src\Circle.cpp(1): fatal error C1083: Cannot open include file: 'Circle.h': No such file or directory
+  ConvexPolygon.cpp
+..\src\ConvexPolygon.cpp(2): fatal error C1083: Cannot open include file: 'ConvexPolygon.h': No such file or directory
+  main.cpp
+..\src\main.cpp(1): fatal error C1083: Cannot open include file: 'gl/glut.h': No such file or directory
+  particle.cpp
+..\src\particle.cpp(2): fatal error C1083: Cannot open include file: 'particle.h': No such file or directory
+  sphereJK_OO_particle.cpp
+e:\dropbox\uni\collisions\cs4s703 tutorial 4-student_oomotion_particle_class\src\../Sphere/sphere_JK_OO_particle.h(5): fatal error C1083: Cannot open include file: 'staticParticle.h': No such file or directory
+  CCCollision.cpp
+e:\dropbox\uni\collisions\cs4s703 tutorial 4-student_oomotion_particle_class\sphere\../Sphere/Wall.h(3): fatal error C1083: Cannot open include file: 'coreMath.h': No such file or directory
+  CPCollision.cpp
+e:\dropbox\uni\collisions\cs4s703 tutorial 4-student_oomotion_particle_class\sphere\../Sphere/Wall.h(3): fatal error C1083: Cannot open include file: 'coreMath.h': No such file or directory
+  CWCollision.cpp
+e:\dropbox\uni\collisions\cs4s703 tutorial 4-student_oomotion_particle_class\sphere\../Sphere/Wall.h(3): fatal error C1083: Cannot open include file: 'coreMath.h': No such file or directory
+  HierarchicalGrid.cpp
+e:\dropbox\uni\collisions\cs4s703 tutorial 4-student_oomotion_particle_class\sphere\HierarchicalGrid.h(2): fatal error C1083: Cannot open include file: 'Circle.h': No such file or directory
+  StaticParticle.cpp
+StaticParticle.cpp(2): fatal error C1083: Cannot open include file: 'StaticParticle.h': No such file or directory
+  Wall.cpp
+e:\dropbox\uni\collisions\cs4s703 tutorial 4-student_oomotion_particle_class\sphere\Wall.h(3): fatal error C1083: Cannot open include file: 'coreMath.h': No such file or directory
