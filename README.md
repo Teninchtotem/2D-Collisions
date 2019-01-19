@@ -18,9 +18,9 @@ GRID                Regular grid that can be scaled into smaller or larger secti
 HGRID	              (Only with circles) Hierarchical grid that dynamically splits up depending on the number of circles in each segment
 
 Not all of these are functioning and try not to use things that would obviously clash such as GRID and HGRID at the same time!	
-
+'''
 Input	|	Output
-#------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 L-Mouse	| (HOLD) Picks up a particle which can be dragged and thrown 
 R-Mouse	| (HOLD) Hold and drag mouse to give a particle an push along that vector
 l	| Creates a line: Hold down, click down L-Mouse for start, drag and release for end
@@ -36,4 +36,4 @@ t	| Decreases the number of times the hierarchical grid can be divided
 y	| Increases the number of times the hierarchical grid can be divided
 g	| Decreases the number of circles required to warrant a hierarchical grid space to be split
 h	| Increases the number of circles required to warrant a hierarchical grid space to be split
-	
+'''
