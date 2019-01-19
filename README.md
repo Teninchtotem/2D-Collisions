@@ -20,7 +20,7 @@ HGRID	              (Only with circles) Hierarchical grid that dynamically split
 Not all of these are functioning and try not to use things that would obviously clash such as GRID and HGRID at the same time!	
 
 Input	|	Output
-------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------
 L-Mouse	| (HOLD) Picks up a particle which can be dragged and thrown 
 R-Mouse	| (HOLD) Hold and drag mouse to give a particle an push along that vector
 l	| Creates a line: Hold down, click down L-Mouse for start, drag and release for end
